@@ -1,0 +1,58 @@
+# Java & Maven/Gradle
+target/
+build/
+out/
+*.log
+
+# Maven Wrapper
+.mvn/wrapper/maven-wrapper.jar
+
+# Gradle Wrapper
+.gradle/
+!gradle/wrapper/gradle-wrapper.jar
+
+# IntelliJ IDEA
+.idea/
+*.iml
+*.iws
+*.ipr
+
+# VS Code
+.vscode/
+
+# NetBeans
+/nbproject/private/
+/nbbuild/
+/dist/
+/nbdist/
+/.nb-gradle/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Docker
+*.pid
+*.seed
+*.pid.lock
+docker-compose.override.yml
+
+# Test & coverage
+*.test
+*.coverage
+*.ec
+*.exec
+
+# Spring Boot
+*.jar
+*.war
+
+# Qodo artifacts
+.qodo
+
+# Local env files
+.env
+.env.*
+
+# Misc
+HELP.md
